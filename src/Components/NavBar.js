@@ -64,7 +64,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function NavBar() {
-  const classes = useStyles();
+
+   
+    const classes = useStyles();
 
   return (
     <div className={classes.root}>
@@ -79,7 +81,7 @@ export default function NavBar() {
               <SearchIcon />
             </div>
             <InputBase
-              placeholder="Search…"
+              placeholder="Enter Country"
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,
