@@ -16,9 +16,9 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
   },
   title: {
-      color: blue,
-      textTransform:"uppercase"
-  }
+      color: '#3f51bf',
+      textTransform:"uppercase",
+  },
 }));
 
 export default function InfoPanel() {
